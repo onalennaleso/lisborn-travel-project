@@ -83,8 +83,8 @@ footer h3 {
 footer p {
     font-weight: 400;
     font-size: 16px;
+    opacity: 0,9;
     margin-right: 20px;
-    opacity: 0,7;
     line-height: 24px;
 }
 
