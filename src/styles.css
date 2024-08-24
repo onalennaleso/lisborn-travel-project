@@ -31,6 +31,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid-3-columns-with-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
 .embed {
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -42,9 +46,10 @@ body {
 
 .card {
     background-color: white;
+    margin: 30px 0;
 }
 
-.card-header .grid {
+.card-header.grid {
     grid-gap: 0;
 }
 
@@ -68,12 +73,6 @@ body {
     padding: 16px;
     background-color: #462cb3;
     text-decoration: none;
-}
-
-.grid-3-columns-with-first-narrow {
-    max-width: 100%;
-    padding: 12px;
-    grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
@@ -117,22 +116,6 @@ header h3 {
     margin: 0;
 }
 
-main h4 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1;
-    color: #272044;
-    margin: 0;
-}
-
-main h5 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1;
-    color: #272044;
-    margin: 0;
-}
-
 header a {
     font-weight: 700;
     font-size: 14px;
@@ -150,6 +133,22 @@ header a {
 
 main {
     background-color: white;
+}
+
+main h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
 }
 
 main h2 {
@@ -196,7 +195,7 @@ footer h3 {
 footer p {
     font-weight: 400;
     font-size: 16px;
-    opacity: 0,9;
+    opacity: 0,7;
     line-height: 24px;
 }
 
@@ -217,7 +216,7 @@ footer a {
 
 @media (max-width: 960px) {
     header {
-        padding: 60px;
+        padding: 60px 0;
     }
 
     header h1 {
